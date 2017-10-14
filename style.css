@@ -24,24 +24,21 @@ a:hover {
   color: #639279;
 }
 #introduction{
-  text-align: center;
-  background-position: center;
-  background-size:cover;
   background-color: #639279; 
-  padding: 20px;
+  background-size: cover;
+  text-align: justify;
+  padding: 15px;
   margin: 0;
   }
 #introduction p {
   font-family: 'Bree Serif', cursive;
   color: white;
   font-size: 15px;
-  padding-top: 10px;
+  padding-top: 5px;
+  margin: 0px;
   }
 
-#soap {
-  background-image: url("images/fond.jpg");
-  background-size: cover;
-}
+
 #banner{
   text-align: center;
   background-position: left;
@@ -50,8 +47,20 @@ a:hover {
   padding: 50px;
   color: #1e2a56;
   }
+
+#soap{
+  background-image:url("images/fond.jpg");
+  background-size: cover;
+  text-align: justify;
+  padding: 10px;
+}
+#soap h1{
+color: white;
+font-size: 20pX;
+}
 #banner img {
-  border-image-repeat: ; 
+  padding: 20px;
+  position: center;  
 }
 #banner h1 {
   font-family: 'Bree Serif', cursive;
@@ -87,8 +96,24 @@ a:hover {
   padding: 30px;
   font-weight: lighter;
   text-align:center;
-
   }
+
+#cta {
+  background-color: #1e2a56;
+  background-size: cover;
+  padding: 50px;
+ }
+#cta h2{
+  font-family: 'Bree Serif', cursive;
+  font-size: 30px;
+  color:white;
+}
+#cta p {
+  color: white;
+}
+#cta form:hover {
+  color: #639279;
+}
 
 #wufoo-zqbf1231aius0m{
   padding: 30px;
@@ -96,7 +121,7 @@ a:hover {
 #footer a {
   color: lightgrey;
   font-size: 30px;
-  margin:0;
+  margin: 0;
 }
 #footer a:hover {
   color: #639279;
